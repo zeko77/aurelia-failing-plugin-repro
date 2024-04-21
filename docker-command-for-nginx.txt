@@ -1,1 +1,0 @@
- docker run --name mynginx --mount type=bind,source=D:\www,target=/usr/share/nginx/html,readonly -p 8089:80 -d nginx
